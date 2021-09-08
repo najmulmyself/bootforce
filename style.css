@@ -143,3 +143,47 @@ a:active {
   font-size: 12px;
   margin-top: 5px;
 }
+#social-media {
+  background: #f8f9fa;
+  padding: 100px 0;
+}
+#social-media p {
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+.social-icon img {
+  width: 60px;
+  transition: all 0.3s;
+}
+.social-icon img:hover {
+  transform: translateY(-5px);
+}
+#footer {
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+  color: #fff;
+}
+.footer-img{
+  width: 100%;
+}
+.footer-box{
+  padding: 20px;
+}
+.footer-box img{
+  width: 120px;
+  margin-bottom: 20px;
+}
+.footer-box .fa{
+  margin: 12px;
+}
+.footer-box .form-control{
+  box-shadow: none !important;
+  border: none !important;
+}
+.footer-box .btn-primary{
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+  border: none !important;
+  margin-top: 10px;
+  box-shadow: none !important;
+}
