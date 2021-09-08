@@ -76,12 +76,12 @@ a:active {
   width: 100px;
   margin-top: 20px;
 }
-.services-title {
+.title {
   font-size: 40px;
   text-transform: uppercase;
   font-weight: 400;
 }
-.services-title::before {
+.title::before {
   content: "";
   width: 200px;
   height: 5px;
@@ -91,7 +91,7 @@ a:active {
   margin: 0 auto;
   transform: translateY(63px);
 }
-.services-title::after {
+.title::after {
   content: "";
   width: 50px;
   height: 10px;
@@ -102,10 +102,26 @@ a:active {
   margin-bottom: 40px;
   transform: translateY(8px);
 }
-#services .btn-primary{
-    box-shadow: none;
-    padding: 8px 25px;
-    border: none;
-    border-radius:20px;
-    background-image: linear-gradient(to right, #a517ba, #5f1782);
+#services .btn-primary {
+  box-shadow: none;
+  padding: 8px 25px;
+  border: none;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+#about-us {
+  background: #f8f9fa;
+  padding: 50px 0;
+}
+.about-title {
+  font-size: 40px;
+  margin-bottom: 8%;
+  font-weight: 400;
+}
+#about-us ul{
+  margin-left: 20px;
+}
+#about-us ul li{
+  margin: 10px 0; 
 }
