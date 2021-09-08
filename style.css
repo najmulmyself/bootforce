@@ -27,8 +27,34 @@ body {
   text-align: center;
 }
 .navbar-toggler {
-  outline: none !important;
+  /* outline: none !important; */
+  box-shadow: none !important;
+  /* border: none !important; */
 }
 .navbar-toggler:focus{
     outline: none !important;
+}
+
+#banner{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    padding-top : 5%;
+    color: white ;
+}
+.banner-title{
+    margin-top: 100px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+}
+.play-btn{
+    width:45px;
+    margin: 10px;
+}
+
+a,a:focus,a:active{
+    color: white;
+    text-decoration: none;
+}
+.bottom-img{
+    width: 100%;
 }
